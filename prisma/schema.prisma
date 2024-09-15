@@ -12,3 +12,11 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Cow {
+  id        String   @id
+  ageYear   Int
+  ageMonth  Int
+  isGoat    Boolean
+  numOfTaonom Int
+}

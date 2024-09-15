@@ -6,6 +6,8 @@
     "dev": "bun run --watch src/controller.ts"
   },
   "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@prisma/client": "^5.19.1",
     "elysia": "^1.1.11",
     "prisma": "^5.19.1"
   },
